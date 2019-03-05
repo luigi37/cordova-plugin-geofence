@@ -31,7 +31,6 @@ public class GeoNotificationNotifier {
             .setSmallIcon(notification.getSmallIcon())
             .setLargeIcon(notification.getLargeIcon())
             .setAutoCancel(true)
-            .setContentTitle(notification.getTitle())
             .setContentText(notification.getText());
 
         if (notification.openAppOnClick) {
